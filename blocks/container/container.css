@@ -1,0 +1,356 @@
+.container {
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 48px;
+  }
+
+  .routepp {
+    margin: 92px 0px 0px 0px;
+  }
+
+  .route__image {
+    width: 928px;
+    height: 580px;
+  }
+
+  .places__column {
+    max-width: 440px;
+  }
+
+  .places__column-right {
+    max-width: 456px;
+  }
+
+  .places__place-title {
+    width: 440px;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .routepp {
+    max-height: 640px;
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+
+  .route {
+    padding: 0;
+  }
+
+  .routepp {
+    margin: 0;
+    padding: 0;
+    max-height: 480px;
+  }
+
+  .routepp__title {
+    color: #fff;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 153px 56px 32px 56px;
+  }
+  .route__image {
+    padding: 0px 0px 0px 0px;
+    width: 768px;
+    height: 480px;
+  }
+
+  .places__column {
+    width: 340px;
+  }
+
+  .places__column-right {
+    width: 352px;
+  }
+
+  .places__place-image {
+    width: 340px;
+  }
+
+  .places__place-title {
+    width: 340px;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .places__description-paragraph-first {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .places__description-paragraph {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 0px 16px;
+  }
+  .header__image {
+    height: 36px;
+    width: 156px;
+  }
+
+  .languages__link {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+
+  .section-title {
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .section-subtitle {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .route {
+    padding: 0;
+    min-height: auto;
+  }
+  .route__image {
+    padding: 0;
+    margin: 0;
+    width: 320px;
+    height: 200px;
+  }
+
+  .route__text {
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    padding: 0 16px;
+    margin: 0;
+  }
+
+  .section-subtitle {
+    max-width: 288px;
+  }
+
+  .article {
+    margin-bottom: 64px;
+  }
+
+  .article__title {
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 64px;
+  }
+
+  .article__subtitle {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .article__text {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .article__stat-description {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .article__stat {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .places {
+    display: block;
+    max-width: 320px;
+    padding: 0;
+  }
+
+  .places__place-title {
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 16px;
+    margin-top: 64px;
+  }
+
+  .places__place {
+    display: block;
+  }
+
+  .places__place-image {
+    max-width: 320px;
+    height: 320px;
+    padding: 0;
+  }
+
+  .places__url-text {
+    padding: 0 16px;
+    margin-top: 64px;
+  }
+
+  .places__link {
+    padding: 0 16px;
+  }
+
+  .places__description-paragraph {
+    padding: 0 16px;
+  }
+
+  .places__description-paragraph-first {
+    padding: 0 16px;
+  }
+
+  .places__column {
+    width: 320px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .places__column-right {
+    width: 320px;
+  }
+
+  .routepp {
+    height: 200px;
+    width: 320px;
+  }
+
+  .routepp__title {
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 288px;
+    padding: 51px 15px 16px 15px;
+  }
+
+  .routepp__subtitle {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 288px;
+    padding: 0px 16px 50px 16px;
+  }
+
+  .places__description-paragraph {
+    width: 288px;
+  }
+
+  .places__description-paragraph-first {
+    width: 288px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .footer__column-left {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 0 0 0;
+  }
+
+  .footer__column-right {
+    text-align: start;
+  }
+
+  .footer__author {
+    text-align: start;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+
+  .footer__link {
+    margin: 32px 0px 32px 16px;
+  }
+}

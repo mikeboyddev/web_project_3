@@ -1,0 +1,10 @@
+.section-subtitle {
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 400;
+  max-width: 620px;
+  margin: 0 auto 64px auto;
+}

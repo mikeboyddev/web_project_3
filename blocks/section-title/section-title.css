@@ -1,0 +1,10 @@
+.section-title {
+  color: #fff;
+  font-size: 96px;
+  line-height: 100px;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 900;
+  max-width: 720px;
+  margin: 58px auto 32px auto;
+}

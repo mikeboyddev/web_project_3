@@ -1,0 +1,6 @@
+.route {
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.routepp {
+  background-image: url(/images/__background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 740px;
+  margin: 92px 48px 0px 48px;
+}
+
+.routepp:hover {
+  background: #2a2c2f;
+  opacity: 0.8;
+}
