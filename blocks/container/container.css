@@ -9,6 +9,8 @@
 
   .routepp {
     margin: 92px 0px 0px 0px;
+    max-height: 640px;
+    max-width: 1024px;
   }
 
   .route__image {
@@ -33,10 +35,6 @@
     line-height: 76px;
     letter-spacing: 0em;
     text-align: left;
-  }
-  .routepp {
-    max-height: 640px;
-    max-width: 1024px;
   }
 }
 
@@ -154,6 +152,7 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
+    max-width: 288px;
   }
   .route {
     padding: 0;
@@ -176,10 +175,6 @@
     text-align: left;
     padding: 0 16px;
     margin: 0;
-  }
-
-  .section-subtitle {
-    max-width: 288px;
   }
 
   .article {
@@ -275,10 +270,12 @@
 
   .places__description-paragraph {
     padding: 0 16px;
+    width: 288px;
   }
 
   .places__description-paragraph-first {
     padding: 0 16px;
+    width: 288px;
   }
 
   .places__column {
@@ -318,14 +315,6 @@
     text-align: center;
     max-width: 288px;
     padding: 0px 16px 50px 16px;
-  }
-
-  .places__description-paragraph {
-    width: 288px;
-  }
-
-  .places__description-paragraph-first {
-    width: 288px;
   }
 
   .footer {
