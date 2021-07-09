@@ -1,5 +1,6 @@
-.places__description-paragraph-first {
-  color: #fff;
+.places__description {
+  grid-area: description;
+  color: #ffffff;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -7,6 +8,4 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 48px;
-  margin-bottom: 25px;
 }

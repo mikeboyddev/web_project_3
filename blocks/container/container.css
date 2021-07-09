@@ -14,27 +14,18 @@
   }
 
   .route__image {
-    width: 928px;
-    height: 580px;
+    max-width: 928px;
+    max-height: 580px;
   }
 
-  .places__column {
-    max-width: 440px;
+  .places__place {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 48px;
   }
 
-  .places__column-right {
-    max-width: 456px;
-  }
-
-  .places__place-title {
-    width: 440px;
-    font-family: Inter;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 76px;
-    letter-spacing: 0em;
-    text-align: left;
+  .places__image {
+    max-height: 440px;
   }
 }
 
@@ -67,24 +58,21 @@
   }
   .route__image {
     padding: 0px 0px 0px 0px;
-    width: 768px;
-    height: 480px;
+    max-width: 768px;
+    max-height: 480px;
   }
 
-  .places__column {
-    width: 340px;
+  .places__place {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 28px;
+    grid-row-gap: 48px;
   }
 
-  .places__column-right {
-    width: 352px;
+  .places__image {
+    max-height: 340px;
   }
 
-  .places__place-image {
-    width: 340px;
-  }
-
-  .places__place-title {
-    width: 340px;
+  .places__title {
     font-family: Inter;
     font-size: 42px;
     font-style: normal;
@@ -94,17 +82,7 @@
     text-align: left;
   }
 
-  .places__description-paragraph-first {
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  .places__description-paragraph {
+  .places__paragraph {
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -120,8 +98,13 @@
     padding: 0px 16px;
   }
   .header__image {
-    height: 36px;
-    width: 156px;
+    max-height: 36px;
+    max-width: 156px;
+    margin-top: 20px;
+  }
+
+  .languages {
+    margin-top: 30px;
   }
 
   .languages__link {
@@ -142,6 +125,8 @@
     line-height: 44px;
     letter-spacing: 0em;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 16px;
   }
 
   .section-subtitle {
@@ -152,7 +137,7 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
-    max-width: 288px;
+    margin-bottom: 40px;
   }
   .route {
     padding: 0;
@@ -161,8 +146,8 @@
   .route__image {
     padding: 0;
     margin: 0;
-    width: 320px;
-    height: 200px;
+    max-width: 320px;
+    max-height: 200px;
   }
 
   .route__text {
@@ -190,6 +175,7 @@
     letter-spacing: 0em;
     text-align: left;
     margin-top: 64px;
+    margin-bottom: 40px;
   }
 
   .article__subtitle {
@@ -200,6 +186,7 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
+    margin-bottom: 32px;
   }
 
   .article__text {
@@ -231,13 +218,27 @@
     letter-spacing: 0em;
     text-align: left;
   }
+
+  .photo-grid {
+    margin-bottom: 64px;
+  }
+
   .places {
-    display: block;
-    max-width: 320px;
     padding: 0;
   }
 
-  .places__place-title {
+  .places__place {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'title' 'link-area'
+      'image' 'description';
+    grid-row-gap: 0px;
+    margin-bottom: 0px;
+  }
+
+  .places__title {
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
@@ -246,51 +247,71 @@
     letter-spacing: 0em;
     text-align: left;
     padding: 0 16px;
-    margin-top: 64px;
   }
 
-  .places__place {
-    display: block;
+  .places__title:first-child {
   }
 
-  .places__place-image {
-    max-width: 320px;
-    height: 320px;
+  .places__image {
+    max-height: 320px;
+    margin-top: 30px;
+  }
+
+  .places__url-heading {
+    margin-top: 30px;
     padding: 0;
-  }
-
-  .places__url-text {
     padding: 0 16px;
-    margin-top: 64px;
   }
 
   .places__link {
     padding: 0 16px;
   }
 
-  .places__description-paragraph {
-    padding: 0 16px;
+  .places__link-area {
+  }
+
+  .places__paragraph {
+    margin-top: 25px;
     width: 288px;
-  }
-
-  .places__description-paragraph-first {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
     padding: 0 16px;
-    width: 288px;
   }
 
-  .places__column {
-    width: 320px;
-    padding: 0;
-    margin: 0;
+  .places__paragraph:first-child {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-top: 32px;
+    padding: 0 16px;
   }
 
-  .places__column-right {
-    width: 320px;
+  .places__paragraph:last-child {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 48px;
+    padding: 0 16px;
   }
 
   .routepp {
-    height: 200px;
-    width: 320px;
+    max-height: 200px;
+    max-width: 320px;
   }
 
   .routepp__title {
@@ -302,6 +323,7 @@
     letter-spacing: 0em;
     text-align: center;
     max-width: 288px;
+    margin-top: 39px;
     padding: 51px 15px 16px 15px;
   }
 
@@ -323,13 +345,13 @@
     margin: 0;
   }
 
-  .footer__column-left {
+  .footer__link-container {
     display: flex;
     flex-direction: column;
     margin: 64px 0 0 0;
   }
 
-  .footer__column-right {
+  .footer__author-container {
     text-align: start;
   }
 
@@ -340,6 +362,6 @@
   }
 
   .footer__link {
-    margin: 32px 0px 32px 16px;
+    margin: 0 0 32px 16px;
   }
 }
