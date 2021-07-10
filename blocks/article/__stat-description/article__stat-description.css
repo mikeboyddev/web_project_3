@@ -1,9 +1,19 @@
 .article__stat-description {
   font-family: Inter;
-  font-size: 12px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 12px;
   line-height: 18px;
-  letter-spacing: 0em;
-  text-align: left;
+}
+
+@media screen and (max-width: 320px) {
+  .article__stat-description {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 }

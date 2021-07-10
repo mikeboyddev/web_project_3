@@ -4,3 +4,16 @@
   flex-direction: column;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .route {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .route {
+    padding: 0;
+    min-height: auto;
+  }
+}

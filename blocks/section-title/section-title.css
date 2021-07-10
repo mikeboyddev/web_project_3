@@ -8,3 +8,17 @@
   max-width: 720px;
   margin: 58px auto 32px auto;
 }
+
+@media screen and (max-width: 320px) {
+  .section-title {
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 16px;
+  }
+}

@@ -2,3 +2,22 @@
   grid-area: image;
   max-height: 460px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places__image {
+    max-height: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__image {
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__image {
+    max-height: 320px;
+    margin-top: 30px;
+  }
+}

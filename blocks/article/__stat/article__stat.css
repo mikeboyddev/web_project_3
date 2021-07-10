@@ -7,3 +7,15 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media screen and (max-width: 320px) {
+  .article__stat {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

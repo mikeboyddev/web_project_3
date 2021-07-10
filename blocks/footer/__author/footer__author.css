@@ -9,3 +9,11 @@
   margin: 0 48px 24px 0;
   text-align: end;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__author {
+    text-align: start;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+}

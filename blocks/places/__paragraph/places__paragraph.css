@@ -1,3 +1,56 @@
 .places__paragraph {
   margin: 0 0 25px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .places__paragraph {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__paragraph {
+    margin-top: 25px;
+    width: 288px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 16px;
+  }
+
+  .places__paragraph:first-child {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-top: 32px;
+    padding: 0 16px;
+  }
+
+  .places__paragraph:last-child {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 48px;
+    padding: 0 16px;
+  }
+}

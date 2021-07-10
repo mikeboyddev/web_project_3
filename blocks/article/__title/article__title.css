@@ -8,3 +8,17 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media screen and (max-width: 320px) {
+  .article__title {
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 64px;
+    margin-bottom: 40px;
+  }
+}
