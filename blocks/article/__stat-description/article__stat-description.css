@@ -1,14 +1,14 @@
 .article__stat-description {
   font-family: Inter;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 12px;
   line-height: 18px;
 }
 
 @media screen and (max-width: 320px) {
   .article__stat-description {
-    font-family: Inter;
+    font-family: Inter-Bold;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;

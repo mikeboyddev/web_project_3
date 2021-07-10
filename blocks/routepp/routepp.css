@@ -1,6 +1,5 @@
 .routepp {
-  background-image: url(/images/__background.svg);
-  background-repeat: no-repeat;
+  background-image: url(../../images/__background.svg);
   background-position: center;
   height: 740px;
   margin: 92px 48px 0px 48px;
