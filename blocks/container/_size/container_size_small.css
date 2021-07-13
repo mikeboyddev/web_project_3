@@ -1,21 +1,21 @@
-.container_medium {
+.container_size_small {
   padding: 0 148px;
 }
 
 @media screen and (max-width: 1024px) {
-  .container_medium {
+  .container_size_small {
     padding: 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .container_medium {
-    padding: 0 24px;
+  .container_size_small {
+    padding: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .container_medium {
+  .container_size_small {
     padding: 0;
   }
 }
