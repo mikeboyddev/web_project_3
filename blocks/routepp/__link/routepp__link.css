@@ -1,0 +1,9 @@
+.routepp__link {
+  position: relative;
+  text-decoration: none;
+  display: block;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

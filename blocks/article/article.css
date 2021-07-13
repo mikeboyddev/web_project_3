@@ -1,12 +1,18 @@
 .article {
   color: #fff;
-  font-family: Inter;
-
-  margin: 0 auto 92px auto;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0 0 92px 0;
+  max-width: 690px;
 }
 
+@media screen and (max-width: 768px) {
+  .article {
+    max-width: 720px;
+  }
+}
 @media screen and (max-width: 320px) {
   .article {
     margin-bottom: 64px;
+    max-width: 288px;
   }
 }

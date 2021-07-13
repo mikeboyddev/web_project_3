@@ -1,19 +1,16 @@
 .routepp {
-  background-image: url(../../images/__background.svg);
+  background-image: url(../../images/cover-route-66.jpg);
   background-position: center;
-  height: 740px;
+  min-height: 740px;
   margin: 92px 48px 0px 48px;
-}
 
-.routepp:hover {
-  background-color: #2a2c2f;
-  opacity: 0.8;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
   .routepp {
     margin: 92px 0px 0px 0px;
-    max-height: 640px;
+    min-height: 640px;
     max-width: 1024px;
   }
 }
@@ -22,13 +19,13 @@
   .routepp {
     margin: 0;
     padding: 0;
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .routepp {
-    max-height: 200px;
+    min-height: 200px;
     max-width: 320px;
   }
 }

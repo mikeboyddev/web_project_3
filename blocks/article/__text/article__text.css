@@ -1,22 +1,10 @@
 .article__text {
   color: #fff;
-  font-family: Inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-@media screen and (max-width: 320px) {
-  .article__text {
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
 }
