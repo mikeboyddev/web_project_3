@@ -10,12 +10,6 @@
   text-align: end;
 }
 
-@media screen and (max-width: 768px) {
-  .footer__author {
-    margin: 0 0 24px 0;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .footer__author {
     text-align: start;

@@ -8,6 +8,7 @@
 @media screen and (max-width: 768px) {
   .article {
     max-width: 720px;
+    margin-bottom: 88px;
   }
 }
 @media screen and (max-width: 320px) {

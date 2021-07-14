@@ -1,17 +1,23 @@
 .routepp {
   background-image: url(../../images/cover-route-66.jpg);
   background-position: center;
-  min-height: 740px;
-  margin: 92px 48px 0px 48px;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
   position: relative;
+  margin: 92px 48px 0px 48px;
+  min-height: 740px;
+  z-index: 1;
+}
+
+.routepp:hover .routepp__overlay {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
   .routepp {
     margin: 92px 0px 0px 0px;
     min-height: 640px;
-    max-width: 1024px;
   }
 }
 
@@ -26,6 +32,5 @@
 @media screen and (max-width: 320px) {
   .routepp {
     min-height: 200px;
-    max-width: 320px;
   }
 }

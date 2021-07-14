@@ -15,6 +15,12 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .places__image {
+    max-height: 320px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__image {
     max-width: 320px;

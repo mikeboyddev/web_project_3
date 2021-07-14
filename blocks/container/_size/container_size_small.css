@@ -13,9 +13,3 @@
     padding: 0;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .container_size_small {
-    padding: 0;
-  }
-}

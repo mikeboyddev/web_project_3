@@ -9,14 +9,14 @@
   text-align: center;
   max-width: 360px;
   margin: 0 auto 0 auto;
+  z-index: 10;
+  opacity: 1;
 }
 
 @media screen and (max-width: 320px) {
   .routepp__subtitle {
     font-size: 14px;
-
     line-height: 16px;
-
     max-width: 288px;
     padding: 0px 16px 50px 16px;
   }

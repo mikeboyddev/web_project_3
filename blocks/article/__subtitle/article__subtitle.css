@@ -7,11 +7,11 @@
   line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
+  margin: 0 0 32px 0;
 }
 
 @media screen and (max-width: 320px) {
   .article__subtitle {
     line-height: 30px;
-    margin-bottom: 32px;
   }
 }
