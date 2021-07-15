@@ -10,10 +10,6 @@
   z-index: 1;
 }
 
-.routepp:hover .routepp__overlay {
-  opacity: 0.8;
-}
-
 @media screen and (max-width: 1024px) {
   .routepp {
     margin: 92px 0px 0px 0px;

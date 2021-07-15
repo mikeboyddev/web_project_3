@@ -9,6 +9,12 @@
   text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+  .places__url-heading {
+    padding: 0 24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__url-heading {
     margin-top: 30px;

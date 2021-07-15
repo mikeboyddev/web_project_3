@@ -1,10 +1,32 @@
 .routepp__link {
-  position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 740px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .routepp__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .routepp__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .routepp__link {
+    min-height: 320px;
+  }
 }

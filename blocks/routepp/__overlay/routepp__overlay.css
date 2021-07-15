@@ -11,3 +11,7 @@
   z-index: -1;
   transition: opacity 1000ms;
 }
+
+.routepp:hover .routepp__overlay {
+  opacity: 0.8;
+}
