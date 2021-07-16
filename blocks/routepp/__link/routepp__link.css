@@ -27,6 +27,6 @@
 
 @media screen and (max-width: 320px) {
   .routepp__link {
-    min-height: 320px;
+    min-height: 200px;
   }
 }

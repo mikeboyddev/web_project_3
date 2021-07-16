@@ -19,7 +19,8 @@
 @media screen and (max-width: 768px) {
   .places__image {
     max-height: 340px;
-    padding: 0 24px;
+    padding: 0 0 0 24px;
+    margin: 0;
   }
 }
 
