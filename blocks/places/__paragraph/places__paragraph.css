@@ -14,17 +14,14 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .places__paragraph {
-    margin-top: 25px;
-    width: 288px;
-  }
-
-  .places__paragraph:first-child {
-    margin-top: 32px;
-  }
-
+@media screen and (max-width: 675px) {
   .places__paragraph:last-child {
     margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__paragraph {
+    max-width: 288px;
   }
 }

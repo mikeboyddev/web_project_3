@@ -16,10 +16,10 @@
   }
 }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 550px) {
   .section-title {
-    font-size: 54px;
-    line-height: 58px;
+    font-size: 45px;
+    line-height: 51px;
   }
 }
 

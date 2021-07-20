@@ -8,6 +8,13 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
+  max-width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__description {
+    max-width: 456px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -16,6 +23,12 @@
     line-height: 26px;
     padding: 0 24px 0 0;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .places__description {
+    padding-left: 24px;
   }
 }
 

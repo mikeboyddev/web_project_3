@@ -10,7 +10,7 @@
   text-align: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .footer__author {
     text-align: start;
     margin-top: 16px;
